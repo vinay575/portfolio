@@ -34,7 +34,7 @@ const Data = () => {
             <h2>I'm <span id="text">Vinay Bhaskar</span></h2>
             <p>
               Hello there! 👋 I'm Vinay, a passionate and dynamic individual diving headfirst into the world
-              of web development. As a recent graduate and aspiring full-stack developer, I bring fresh
+              of web development.<br></br>As a recent graduate and aspiring full-stack developer, I bring fresh
               perspectives and a hunger for learning to every project.
             </p>
           </div>
