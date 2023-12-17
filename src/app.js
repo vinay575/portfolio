@@ -13,8 +13,7 @@ const App = () => {
       <Cursor/>
       <Data/>
       <About/>
-      <Skills/>
-      
+      <Skills/>  
     </div>
   );
 }

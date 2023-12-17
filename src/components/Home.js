@@ -1,4 +1,6 @@
 import React from 'react';
+import dotted from '../images/dotted.png';
+import colors from '../images/colors.png';
 import profil from '../images/profil.png';
 const Data = () => {
   return (
@@ -26,6 +28,8 @@ const Data = () => {
             </p>
           </div>
         </section>
+        <img src={dotted} id='dotted' alt="logo"/>
+        <img src={colors} id='color' alt="logo"/>
         <img src={profil} id='profil' alt="logo"/>
       </section>
 </section>

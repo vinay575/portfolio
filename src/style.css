@@ -114,6 +114,8 @@ body, html, #app {
 /*------content---*/
 .content{
     position:relative;
+    top:130px;
+    left:540px;
     max-white:700px;
     z-index:10;
 }
@@ -142,9 +144,48 @@ body, html, #app {
  
 }
 
-#profil{
-  width: 350px;
+#dotted{
+  position:absolute;
+  left:55%;
+  top:12%;
+  height:100px;
+  animation:animateColor 10s ease-in-out infinite;
+  transition-delay:-5s;
 }
+#color{
+  position:absolute;
+  max-width:500px;
+  animation:animateColor 8s ease-in-out infinite;
+}
+@keyframes animateColor 
+{
+  0%,100%
+  {
+    transform:translate(0px);
+  }
+  50%{
+    transform:translate(25px);
+  }
+  
+}
+
+#profil{
+  position:absolute;
+  max-height:100vh;
+  animation:animateMen 10s ease-in-out infinite;
+}
+@keyframes animateMen
+{
+  0%,100%
+  {
+    transform:translate(0px);
+  }
+  50%{
+    transform:translate(-10px);
+  }
+  
+}
+
 /*----- -----------------------------------------------about me design------------------------------*/
 .sta{
     display: flex;
