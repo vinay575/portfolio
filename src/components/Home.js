@@ -1,4 +1,5 @@
 import React from 'react';
+import profil from '../images/profil.png';
 const Data = () => {
   return (
 <section id="app">
@@ -25,6 +26,7 @@ const Data = () => {
             </p>
           </div>
         </section>
+        <img src={profil} id='profil' alt="logo"/>
       </section>
 </section>
   )

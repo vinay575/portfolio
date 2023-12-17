@@ -141,6 +141,10 @@ body, html, #app {
     transition:0.5s;
  
 }
+
+#profil{
+  width: 350px;
+}
 /*----- -----------------------------------------------about me design------------------------------*/
 .sta{
     display: flex;
