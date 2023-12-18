@@ -386,4 +386,107 @@ body, html, #app {
     color: #57D2F3;
   }
 
+  /*--contact--*/
+  #boy {
+    background-color: #FEEEDE;
+    font-family: 'Roboto', serif;
+  }
+  #h1 {
+    letter-spacing: 0.5px;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  /* image */
+  #img {
+    height: 100%;
+    width: 200%;
+  }
+  .image-containe {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+  }
+
+  #input {
+    margin-bottom:10px;
+  }
+  textarea {
+    height:100px;
+    margin-bottom:10px;
+  }
+  #input:first-of-type
+  {
+    margin-top:35px;
+  }
+  #input, textarea {
+    font-size: 10px;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background: #F3F5F6;
+    color:#4c4c4c; 
+    border-radius: 5px; 
+    background-clip: padding-box;
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 600px;
+  }
+  .bto {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    background-color: #1be3a4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 70px;
+    padding-left: 35px;
+    border-radius: 5px;
+    border: 1px solid #CBDFE0;
+    width: 30%;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin-left: 55px;
+  }
+  .message {
+      font-family: 'Roboto', serif;
+      font-size:1.1em;
+      display:none;
+      padding-top:10px;
+      padding-bottom:10px;
+      background-color:#2ABCA7;
+      width: 80%;
+      margin:auto;
+      color: #FAFAFA;
+      border-radius:6px;
+  }
+
+  .title-containe {
+    text-align: center;
+    height: 60px;
+    width: 300px;
+    margin: auto;
+    top: 130px;
+  }
+
+  .containe{
+    height: 350px;
+    width: 692px;
+    margin: auto;
+    position:relative;
+    left: 0;
+    right: 0;
+    top: 90px;
+    bottom: 0;
+    background-color: #fff;
+  }
+
+  .text-containe {
+    position:absolute;
+    height: 100%;
+    width: 45%;
+    right: 0;
+    margin: auto;
+    margin-left: 20px;
+  }
+  
   
