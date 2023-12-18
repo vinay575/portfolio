@@ -14,7 +14,7 @@ const YourComponent = () => {
     <>
     <div id='boy'>
       {/* title */}
-      <div id="tc" className="title-containe">
+      <div id="tc " className="title-containe">
         <h1 id='h1'>Contact Me</h1>
       </div>
 

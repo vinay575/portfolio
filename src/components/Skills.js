@@ -17,6 +17,7 @@ import  Star from './Stars';
 const Skills = () => {
     return (
         <>
+        
         <div className="sta"></div>
       <section className="star">
         <p className="pot">
@@ -162,6 +163,7 @@ const Skills = () => {
         </section>
         <Star/>
     </section>
+   
     </>
     )}
     export default Skills;

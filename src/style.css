@@ -388,13 +388,13 @@ body, html, #app {
 
   /*--contact--*/
   #boy {
-    background-color: #FEEEDE;
-    font-family: 'Roboto', serif;
+    background-color: #1D1E22;
   }
   #h1 {
     letter-spacing: 0.5px;
     font-size: 35px;
     margin-bottom: 10px;
+    color:white;
   }
   /* image */
   #img {
@@ -475,7 +475,6 @@ body, html, #app {
     position:relative;
     left: 0;
     right: 0;
-    top: 90px;
     bottom: 0;
     background-color: #fff;
   }
