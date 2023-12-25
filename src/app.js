@@ -16,7 +16,12 @@ import Footer from './components/footer'
 const App = () => {
   return (
     <div>
-   
+   <Cursor/>
+<Data/>
+<About/>
+<Skills/>  
+<Contact/>
+
     <Footer/>
      
     </div>

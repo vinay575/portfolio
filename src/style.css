@@ -79,7 +79,7 @@ body, html, #app {
 }
 
 
-/*----navbar-----*/
+/*----navbar-------------------------------------------------------------------------*/
 .banner {
     position: relative;
     display: flex;
@@ -111,7 +111,7 @@ body, html, #app {
 .header .logo span {
     color: #FFA500; /*--color*/
 }
-/*------content---*/
+/*------content------------------------------------------------------------------------------*/
 .content{
     position:relative;
     top:130px;
@@ -192,7 +192,7 @@ body, html, #app {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #1D1E22;
+    background-color: black;
   }
 .section{
     position:absolute;
@@ -250,13 +250,13 @@ body, html, #app {
     background-repeat:no-repeat;
     background-position:-100px -150px;
   }
-  /*---------------------------rating--------------------------------*/
+  /*---------------------------rating--------------------------------------------------------*/
   .star {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #1D1E22;
+    background-color: black;
   }
   
   .pot {
@@ -386,7 +386,7 @@ body, html, #app {
     color: #57D2F3;
   }
 
-  /*--contact--*/
+  /*-----------------------------contact---------------------------------------------------*/
   #boy {
     background-color: #1D1E22;
   }
