@@ -12,7 +12,7 @@ const YourComponent = () => {
 
   return (
     <>
-    <div id='boy'>
+    <div className='boy' id='ContactMe'>
       {/* title */}
       <div id="tc " className="title-containe">
         <h1 id='h1'>Contact Me</h1>
