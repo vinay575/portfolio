@@ -389,6 +389,7 @@ body, html, #app {
   /*-----------------------------contact---------------------------------------------------*/
   .boy {
     background-color: black;
+   
   }
   #h1 {
     letter-spacing: 0.5px;
@@ -462,10 +463,10 @@ body, html, #app {
 
   .title-containe {
     text-align: center;
-    height: 60px;
+    height: 100px;
     width: 300px;
     margin: auto;
-    top: 130px;
+    
   }
 
   .containe{
@@ -475,7 +476,7 @@ body, html, #app {
     position:relative;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 50;
     background-color: #fff;
   }
 
