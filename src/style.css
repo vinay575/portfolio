@@ -499,7 +499,9 @@ body, html, #app {
   background-repeat: no-repeat;
   background-position: center center;
 }
-
+.data{
+  
+}
 .br2 {
   border-radius: .25rem;
 }
@@ -525,25 +527,9 @@ body, html, #app {
   transition: color .15s ease-in;
 }
 
-.link:link, .link:visited {
-  transition: color .15s ease-in;
-}
-
-.link:hover {
-  transition: color .15s ease-in;
-}
-
-.link:active {
-  transition: color .15s ease-in;
-}
-
-.link:focus {
-  transition: color .15s ease-in;
-  outline: 1px dotted currentColor;
-}
 
 .w2 {
-  width: 2rem;
+  width:2rem;
 }
 
 .w-100 {
@@ -567,13 +553,10 @@ body, html, #app {
 }
 
 .hover-white:hover {
-  color:black;
-   border:1px black dotted;
+  color:black;  
 }
-
 .hover-white:focus {
   color:black;
-  border:1px black dotted;
 }
 
 .pa2 {
@@ -585,8 +568,8 @@ body, html, #app {
 }
 
 .pv5 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .ph3 {
@@ -595,11 +578,11 @@ body, html, #app {
 }
 
 .ma2 {
-  margin: .5rem;
+  margin:.6rem;
 }
 
 .ml3 {
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 .tc {
@@ -614,6 +597,11 @@ body, html, #app {
   .tc-l {
       text-align: center;
   }
+
+  .data{
+    
+  }
+
 }
 
   
