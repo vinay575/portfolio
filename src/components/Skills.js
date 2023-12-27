@@ -1,5 +1,4 @@
 import React from 'react';
-import image1 from '../images/ajax.png';
 import image2 from '../images/bootstrap.png';
 import image3 from '../images/command.png';
 import image4 from '../images/css3.png';
@@ -9,7 +8,6 @@ import image7 from '../images/javascript.png';
 import image8 from '../images/jquery.png';
 import image9 from '../images/npm.png';
 import image10 from '../images/react.png';
-import image11 from '../images/sass.png';
 import image12 from '../images/vs-code.png';
 import '../style.css';
 import  Star from './Stars';
@@ -91,30 +89,6 @@ const Skills = () => {
                 </div>
               </div>
             </li>
-    
-
-            <li>
-              <div className="skill-card">
-                <div className="tooltip">SASS</div>
-
-                <div className="card-icon">
-                  <img src={image11} alt="SASS logo"/>
-                </div>
-              </div>
-            </li>
-
-         
-
-            <li>
-              <div className="skill-card">
-                <div className="tooltip">Ajax</div>
-
-                <div className="card-icon">
-                  <img src={image1} alt="Ajax logo"/>
-                </div>
-              </div>
-            </li>
-
     
             <li>
               <div className="skill-card">
