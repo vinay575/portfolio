@@ -129,6 +129,36 @@ const Skills = () => {
                 </div>
               </div>
             </li>
+            
+            <li>
+              <div className="skill-card">
+                <div className="tooltip">VS Code</div>
+
+                <div className="card-icon">
+                  <img src={image12} alt="VS Code logo"/>
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div className="skill-card">
+                <div className="tooltip">VS Code</div>
+
+                <div className="card-icon">
+                  <img src={image12} alt="VS Code logo"/>
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div className="skill-card">
+                <div className="tooltip">VS Code</div>
+
+                <div className="card-icon">
+                  <img src={image12} alt="VS Code logo"/>
+                </div>
+              </div>
+            </li>
 
             
           </ul>
